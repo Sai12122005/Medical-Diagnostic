@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="3cdf3022c30f07105735b813e4013113" label="APPOINTMENT TABLE" max_length="40" name="x_2062697_medica_0_appointment_table" type="collection">
+        <element label="Rejection Reason" max_length="255" name="rejection_reason" type="string_full_utf8"/>
+        <element label="Scheduled Date" max_length="40" name="scheduled_date" type="glide_date_time"/>
+        <element label="Slot Time" max_length="40" name="slot_time" type="string"/>
+        <element label="Approved By" max_length="32" name="approved_by" reference="sys_user" type="reference"/>
+        <element label="Email" max_length="40" name="email" type="string"/>
+        <element label="Patient" max_length="32" name="patient" reference="x_2062697_medica_0_patient" type="reference"/>
+        <element choice="1" label="Approval Status" max_length="40" name="approval_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Rejected" value="rejected"/>
+                <element inactive_on_update="false" label="Cancelled" value="cancelled"/>
+                <element inactive_on_update="false" label="-- New choice --" value="-- New choice --"/>
+                <element inactive_on_update="false" label="Approved" value="approval"/>
+                <element inactive_on_update="false" label="Completed" value="completed"/>
+                <element inactive_on_update="false" label="Pending" value="pending"/>
+            </choice>
+        </element>
+        <element label="Created By" max_length="32" name="created_by" reference="sys_user" type="reference"/>
+        <element label="Appointment Number" max_length="40" name="appointment_number" type="string"/>
+        <element choice="1" label="Payment Status" max_length="40" name="payment_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Failed" value="failed"/>
+                <element inactive_on_update="false" label="Refunded" value="refunded"/>
+                <element inactive_on_update="false" label="Paid" value="paid"/>
+                <element inactive_on_update="false" label="Pending" value="pending"/>
+            </choice>
+        </element>
+        <element label="Refund Amount" max_length="20" name="refund_amount" type="currency"/>
+        <element label="Total Amount" max_length="20" name="total_amount" type="currency"/>
+        <element choice="1" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Confirmed" value="confirmed"/>
+                <element inactive_on_update="false" label="InProgress" value="inprogress"/>
+                <element inactive_on_update="false" label="Scheduled" value="scheduled"/>
+                <element inactive_on_update="false" label="Cancelled" value="cancelled"/>
+                <element inactive_on_update="false" label="Completed" value="completed"/>
+            </choice>
+        </element>
+        <element label="Test" max_length="32" name="test" reference="x_2062697_medica_0_diagnostic_test" type="reference"/>
+        <element label="Confirmation Sent" max_length="40" name="confirmation_sent" type="string"/>
+        <element label="Approval Date" max_length="40" name="approval_date" type="glide_date_time"/>
+        <element label="Notes" max_length="255" name="notes" type="string_full_utf8"/>
+        <index name="index">
+            <element name="approved_by"/>
+        </index>
+        <index name="index2">
+            <element name="created_by"/>
+        </index>
+        <index name="index3">
+            <element name="patient"/>
+        </index>
+        <index name="index4">
+            <element name="test"/>
+        </index>
+    </element>
+</database>

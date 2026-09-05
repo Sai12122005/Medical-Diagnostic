@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_column">
+    <sp_column action="DELETE">
+        <aria_label/>
+        <class_name/>
+        <order>1</order>
+        <semantic_tag/>
+        <size>12</size>
+        <size_lg/>
+        <size_sm/>
+        <size_xs/>
+        <sp_row display_value="1">690f4136c3cb87105735b813e4013115</sp_row>
+        <sys_class_name>sp_column</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-04 11:09:13</sys_created_on>
+        <sys_id>e50f45fac34f87105735b813e4013170</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>1</sys_name>
+        <sys_package display_value="Medical Diagnosis Center" source="x_2062697_medica_0">b49fb4eec3cb07105735b813e40131c0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Medical Diagnosis Center">b49fb4eec3cb07105735b813e40131c0</sys_scope>
+        <sys_update_name>sp_column_e50f45fac34f87105735b813e4013170</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-04 11:09:13</sys_updated_on>
+    </sp_column>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Medical Diagnosis Center">b49fb4eec3cb07105735b813e40131c0</application>
+        <file_path/>
+        <instance_id>f7621f31db1ac25002022a5913961958</instance_id>
+        <instance_name>dev272282</instance_name>
+        <name>sp_column_e50f45fac34f87105735b813e4013170</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_column"><sp_column action="INSERT_OR_UPDATE"><aria_label/><class_name/><order>1</order><semantic_tag/><size>12</size><size_lg/><size_sm/><size_xs/><sp_row display_value="1">690f4136c3cb87105735b813e4013115</sp_row><sys_class_name>sp_column</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-04 11:09:13</sys_created_on><sys_id>e50f45fac34f87105735b813e4013170</sys_id><sys_mod_count>0</sys_mod_count><sys_name>1</sys_name><sys_package display_value="Medical Diagnosis Center" source="x_2062697_medica_0">b49fb4eec3cb07105735b813e40131c0</sys_package><sys_policy/><sys_scope display_value="Medical Diagnosis Center">b49fb4eec3cb07105735b813e40131c0</sys_scope><sys_update_name>sp_column_e50f45fac34f87105735b813e4013170</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-04 11:09:13</sys_updated_on></sp_column></record_update>]]></payload>
+        <payload_hash>1737042340</payload_hash>
+        <record_name>1</record_name>
+        <reverted_from/>
+        <source>b89fb4eec3cb07105735b813e40131c9</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-04 11:09:13</sys_created_on>
+        <sys_id>610f45fac34f87105735b813e4013174</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1a06c1bc0ab0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-04 11:09:13</sys_updated_on>
+        <type>Column</type>
+        <update_guid>210f45fa394f87107d16a190f5647173</update_guid>
+        <update_guid_history>210f45fa394f87107d16a190f5647173:1737042340</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="1">a41f85fac34f87105735b813e4013162</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-04 11:09:25</sys_created_on>
+        <sys_db_object display_value="" name="sp_column">sp_column</sys_db_object>
+        <sys_id>a5b7c6e731994118bdcef06366a64561</sys_id>
+        <sys_metadata>e50f45fac34f87105735b813e4013170</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>1</sys_name>
+        <sys_package display_value="Medical Diagnosis Center" source="x_2062697_medica_0">b49fb4eec3cb07105735b813e40131c0</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Medical Diagnosis Center">b49fb4eec3cb07105735b813e40131c0</sys_scope>
+        <sys_scope_delete display_value="">001d44e1542d441e8000fd1a4652f9b9</sys_scope_delete>
+        <sys_update_name>sp_column_e50f45fac34f87105735b813e4013170</sys_update_name>
+        <sys_update_version display_value="sp_column_e50f45fac34f87105735b813e4013170">610f45fac34f87105735b813e4013174</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-04 11:09:25</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
